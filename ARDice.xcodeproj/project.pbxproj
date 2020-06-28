@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C5C33A424A915DF00EC7F76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C5C33A324A915DF00EC7F76 /* Assets.xcassets */; };
 		2CBBDE0424A911B500187E67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBBDE0324A911B500187E67 /* AppDelegate.swift */; };
 		2CBBDE0624A911B500187E67 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CBBDE0524A911B500187E67 /* art.scnassets */; };
 		2CBBDE0824A911B500187E67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBBDE0724A911B500187E67 /* ViewController.swift */; };
 		2CBBDE0B24A911B500187E67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CBBDE0924A911B500187E67 /* Main.storyboard */; };
-		2CBBDE0D24A911B700187E67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CBBDE0C24A911B700187E67 /* Assets.xcassets */; };
 		2CBBDE1024A911B700187E67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CBBDE0E24A911B700187E67 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C5C33A324A915DF00EC7F76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CBBDE0024A911B500187E67 /* ARDice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARDice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CBBDE0324A911B500187E67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CBBDE0524A911B500187E67 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		2CBBDE0724A911B500187E67 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2CBBDE0A24A911B500187E67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2CBBDE0C24A911B700187E67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CBBDE0F24A911B700187E67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2CBBDE1124A911B700187E67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -56,11 +56,11 @@
 		2CBBDE0224A911B500187E67 /* ARDice */ = {
 			isa = PBXGroup;
 			children = (
-				2CBBDE0324A911B500187E67 /* AppDelegate.swift */,
+				2C5C33A324A915DF00EC7F76 /* Assets.xcassets */,
 				2CBBDE0524A911B500187E67 /* art.scnassets */,
 				2CBBDE0724A911B500187E67 /* ViewController.swift */,
+				2CBBDE0324A911B500187E67 /* AppDelegate.swift */,
 				2CBBDE0924A911B500187E67 /* Main.storyboard */,
-				2CBBDE0C24A911B700187E67 /* Assets.xcassets */,
 				2CBBDE0E24A911B700187E67 /* LaunchScreen.storyboard */,
 				2CBBDE1124A911B700187E67 /* Info.plist */,
 			);
@@ -127,7 +127,7 @@
 			files = (
 				2CBBDE0624A911B500187E67 /* art.scnassets in Resources */,
 				2CBBDE1024A911B700187E67 /* LaunchScreen.storyboard in Resources */,
-				2CBBDE0D24A911B700187E67 /* Assets.xcassets in Resources */,
+				2C5C33A424A915DF00EC7F76 /* Assets.xcassets in Resources */,
 				2CBBDE0B24A911B500187E67 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,7 +285,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = K9N82GAG49;
+				DEVELOPMENT_TEAM = 45UDDW3RM4;
 				INFOPLIST_FILE = ARDice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -303,7 +303,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = K9N82GAG49;
+				DEVELOPMENT_TEAM = 45UDDW3RM4;
 				INFOPLIST_FILE = ARDice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
